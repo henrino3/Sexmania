@@ -10,10 +10,44 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".MainActivity"
+    android:background="#ff00e1"
     tools:showIn="@layout/activity_main">
 
-    <TextView
-        android:layout_width="wrap_content"
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Sex Education"
+            android:id="@+id/textView3"
+            android:textSize="50sp"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sex Education"
+            android:visibility="gone"
+            android:id="@+id/button"
+            android:background="#8ca5ff"
+            android:layout_margin="8dp"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kamasutra"
+            android:id="@+id/button2"
+            android:background="#8ca5ff"
+            android:layout_margin="8dp"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
 </RelativeLayout>
+

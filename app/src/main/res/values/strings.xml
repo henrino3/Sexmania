@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">Sexmania</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_kamasutra">Kamasutra</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_sex_ed">SexEd</string>
+
+
 </resources>
